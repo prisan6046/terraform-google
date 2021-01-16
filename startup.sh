@@ -10,6 +10,6 @@ docker-compose --version
 sudo usermod -aG docker ubuntu
 sudo chmod 777 /var/run/docker.soc
 
-sudo docker login -u dockerbla1234 -p Wenwen6046. https://registry-1.docker.io
+sudo docker login -u "" -p "" https://registry-1.docker.io
 sudo docker pull nginx
 sudo docker run --name mynginx1 -p 80:80 -d nginx
